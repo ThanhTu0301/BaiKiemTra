@@ -14,8 +14,8 @@ import java.util.Scanner;
 public class Bai4_ChuViDuongTron {
     public static void  main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.err.println("Nhap ban kinh hinh tron: ");
+        System.out.println("Nhap ban kinh hinh tron: ");
         double r = sc.nextDouble();
-        System.err.println("Chu vi duong tron co ban kinh " +  r + " la " + r * r * Math.PI);
+        System.out.println("Chu vi duong tron co ban kinh " +  r + " la " + r * r * Math.PI);
     }      
 }
