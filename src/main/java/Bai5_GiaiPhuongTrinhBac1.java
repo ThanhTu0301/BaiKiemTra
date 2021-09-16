@@ -15,9 +15,9 @@ public class Bai5_GiaiPhuongTrinhBac1 {
     public static void main(String[] agrs){
         Scanner sc=new Scanner(System.in);
         System.out.println("Nhap tham so a:");
-        int a=sc.nextInt();
+        float a=sc.nextFloat();
         System.out.println("Nhap tham so b:");
-        int b=sc.nextInt();
+        float b=sc.nextFloat();
         if (a == 0){    //nếu a==0 thì
             if (b == 0){    //nếu b==0 thì
             System.out.println("Phuong trinh y=ax+b vo so nghiem");
@@ -27,8 +27,7 @@ public class Bai5_GiaiPhuongTrinhBac1 {
             }
         }
         else {      //nếu không thì (nếu (a!=0) thì)
-             double c=-b/a;
-            System.out.println("Phuong trinh y=ax+b có nghiem x la" + c);
+            System.out.println("Phuong trinh y=ax+b có nghiem x la" + -b/a);
         }
     }
 }
